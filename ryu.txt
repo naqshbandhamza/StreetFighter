@@ -1,0 +1,3 @@
+33 cycles
+8 frames per cycle
+637 X 3494
