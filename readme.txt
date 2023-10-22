@@ -1,14 +1,25 @@
 setup for visual studio (c++)
-all of these files are to be pasted where you keep your .cpp files in a visual studio c++ project
-in order to run this program first of all you must donwload sfml on your computer and keep note of the directory path where you install it.
-then include the .h files in header section and .cpp files in the .cpp section of your visual studio dashboard
-top in the visual studio menu bar select properties and then select your project properties at the bottom
-select C/C++ , select general paste "C:\SFML-2.5.1\include" against the additional include directories, enter then apply (this is the path of the location where sfml is installed in C Drive by defualt)
-come out and now select linker, select general against additional library directories paste "C:\SFML-2.5.1\lib" enter then apply
-select linker--select input and paste the following:
+1. create an empty starter visual studio c++ project
+
+2. all of the files are to be pasted where we keep our .cpp files in an empty starter visual studio c++ project
+
+3. in order to run this program first of all you must donwload sfml-2.5.1 (use same version) on your computer and keep note of the directory path where you install it.
+
+4. then include the .h files in header section and .cpp files in the .cpp section of your visual studio dashboard
+
+5. top in the visual studio menu bar select properties and then select your project properties at the bottom
+
+6. select C/C++ -> general && paste "C:\SFML-2.5.1\include" against the additional include directories (exclude double quotes), enter then apply (this is the path of the location where sfml is installed in C Drive by default)
+
+7. select linker -> general && against additional library directories paste "C:\SFML-2.5.1\lib"  (exclude double quotes) press enter then apply
+
+8. select linker -> input and paste the following against the additional dependecies (press enter and apply):
 kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;sfml-network-d.lib;sfml-audio-d.lib;%(AdditionalDependencies)
-against the additional dependecies enter and apply
+
 now try to run the program ,it runs GOOD!!!
-else check again in project properties select your platform for mine it was x64.
+
+else check again in project properties -> configuration manager:
+select your platform config for mine the project worked with the following configuration:
+Debug x64
 repeat the above steps then run again it should work
 thanks!!!!!!!
