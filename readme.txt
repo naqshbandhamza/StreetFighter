@@ -23,3 +23,30 @@ select your platform config for mine the project worked with the following confi
 Debug x64
 repeat the above steps then run again it should work
 thanks!!!!!!!
+
+controls:
+
+player 1 left side (ryu):
+z -> move forward
+c -> move backwards
+v -> jump
+x -> roll over
+d -> flying kick
+s -> kick
+a -> punch
+e -> down spin kick
+q or w or f or g -> special attacks icluding haduken (ryu most famous move from street fighter)
+
+player 2 right side:
+j -> move forward
+L or l -> move backwards
+i -> jump
+k -> punch
+p -> kick
+v -> front jab claws
+u -> front back flip kick
+t - > panic
+m or n or o or u -> special attacks
+
+
+
